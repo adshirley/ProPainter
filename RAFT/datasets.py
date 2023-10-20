@@ -29,7 +29,7 @@ class FlowDataset(data.Dataset):
         self.init_seed = False
         self.flow_list = []
         self.image_list = []
-        self.extra_info = []
+
 
     def __getitem__(self, index):
 
